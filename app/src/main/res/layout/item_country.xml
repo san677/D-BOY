@@ -1,0 +1,40 @@
+  <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      android:layout_margin="10dp"
+      android:background="#F2F6ff"
+        android:padding="16dp">
+
+        <TextView
+
+            android:id="@+id/tvTransactionId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transaction ID"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+
+      <TextView
+          android:paddingTop="10dp"
+            android:id="@+id/tvTransactionDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23-06-2023, 01:45 PM"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+      <TextView
+          android:id="@+id/tvTransactionAmount"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:fontFamily="monospace"
+          android:gravity="left"
+          android:layout_gravity="end"
+          android:text="+ $10.12"
+          android:textColor="@color/blue"
+          android:textSize="16sp" />
+
+  </LinearLayout>
